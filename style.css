@@ -1,0 +1,151 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_640.jpg);
+}   
+.container{
+    width: 70%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 0 0 40px white;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+}
+.left{
+    display: flex;   
+    width: 30%;
+}
+.left > i{
+    color: white;
+    box-shadow: 0 0 10px white;
+    font-size: 20px;
+    width: 40px;
+    margin: 1rem;
+    height: 40px;
+    border-radius: 50%;
+    padding: 6px 10px;
+
+}
+.left > h1{
+    font-size: 15px;
+    color: green;
+    margin: 20px 0;
+}
+.left > span{
+    font-size: 15px;
+    margin: 11% -13%;
+    color: white;
+}
+.right{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.right > i{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 20px white;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 7px 8px;
+    color: white;
+}
+.mid{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    
+}
+.mid > h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    margin-top: 30px;
+    line-height: 2;
+}
+.mid > p{
+    font-size: 15px;
+    line-height: 2;
+    color: white;
+}
+.middle{
+    width: 80%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.part{
+    width: 25%;
+    height: 13rem;
+    box-shadow: 0 0 10px white;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 40px;
+    line-height: 2;
+}
+.part > h1{
+    font-size: 20px;
+    color: white;   
+    margin-top: 10px;
+
+}
+.part > i{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px white;
+    font-size: 25px;
+    color: white    ;
+    border-radius: 50%;
+    padding: 7px 8px;
+    
+}
+.but{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.but > button{
+    padding: 8px 20px;
+    color: white;
+    margin-top: -20px;
+    border-radius: 5px;
+    background-color: transparent;
+    background-color: rgba(47, 40, 28, 0.43);
+    box-shadow: 0 0 5px white;
+    border: 2px solid rgb(105, 224, 105);
+}
+#next{
+    border: 2px solid rgb(105, 224, 105);
+    background-color: rgba(16, 143, 109, 0.713);
+
+}
+
+i{
+    cursor: pointer;
+}
